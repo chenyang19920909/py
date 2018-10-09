@@ -1,0 +1,23 @@
+# -*- coding=utf-8 -*-
+#cmd执行命令生成报告
+#cd /d d:\py\test_python_selenium\test_project
+#python runtest.py >> report\result.txt 2>&1
+
+
+FAILED (failures=1)
+.F
+======================================================================
+FAIL: test_baidu (test_youdao.MyTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "d:\py\test_python_selenium\test_project\test_case\test_youdao.py", line 23, in test_baidu
+    self.assertEqual(title, "unittest_�е�����")
+AssertionError: '��webdriver��ʲô��˼_Ӣ��webdriver�ķ���_����_����_�÷�_����_���߷���_�е��ʵ�' != 'unittest_�е�����'
+- ��webdriver��ʲô��˼_Ӣ��webdriver�ķ���_����_����_�÷�_����_���߷���_�е��ʵ�
++ unittest_�е�����
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 21.267s
+
+FAILED (failures=1)
